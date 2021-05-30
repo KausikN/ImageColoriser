@@ -83,10 +83,10 @@ def TruncateCombinations(combinations, max_combinations=-1, method='random'):
 
 # Driver Code
 # Params
-greyScaleValue = 176
+# greyScaleValue = 176
 
-matchesJsonPath = 'ColorisationMethods/Clustering/Data/MatchValues.json'
-combinationsJsonPath = 'ColorisationMethods/Clustering/Data/CombinationValues.p'
+# matchesJsonPath = 'ColorisationMethods/Clustering/Data/MatchValues.json'
+# combinationsJsonPath = 'ColorisationMethods/Clustering/Data/CombinationValues.p'
 # Params
 
 # RunCode
@@ -109,14 +109,14 @@ combinationsJsonPath = 'ColorisationMethods/Clustering/Data/CombinationValues.p'
 # matches = json.load(open(matchesJsonPath, 'r'))
 # combinations = pickle.load(open('ColorisationMethods/Clustering/Data/CombinationValues_Large.p', 'rb'))
 
-# # Plot Data
-# matches_list = ConvertMatchesDict2List(matches)
-# plt.bar(list(range(0, 256)), matches_list)
-# plt.show()
+# # # Plot Data
+# # matches_list = ConvertMatchesDict2List(matches)
+# # plt.bar(list(range(0, 256)), matches_list)
+# # plt.show()
 
 # # Truncate Combinations
-# combinations_t, matches_t = TruncateCombinations(combinations, max_combinations=10000, method='random')
+# combinations_t, matches_t = TruncateCombinations(combinations, max_combinations=2500, method='random')
 
 # # Save
-# json.dump(matches_t, open(matchesJsonPath, 'w'))
-# pickle.dump(combinations_t, open(combinationsJsonPath, 'wb'))
+# json.dump(matches_t, open('ColorisationMethods/Clustering/Data/MatchValues.json', 'w'))
+# pickle.dump(combinations_t, open('ColorisationMethods/Clustering/Data/CombinationValues.p', 'wb'))
