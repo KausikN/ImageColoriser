@@ -31,9 +31,9 @@ def ReadImage(imgPath, greyScale=False, size=None):
 PATH_MATCHES = 'ColorisationMethods/Clustering/Data/MatchValues.json'
 PATH_COMBINATIONS = 'ColorisationMethods/Clustering/Data/CombinationValues.p'
 
-# print("Loading Matches and Combinations...")
-# MATCHES = ReadJSON(PATH_MATCHES)
-# COMBINATIONS = ReadPickle(PATH_COMBINATIONS)
+print("Loading Matches and Combinations...")
+MATCHES = ReadJSON(PATH_MATCHES)
+COMBINATIONS = ReadPickle(PATH_COMBINATIONS)
 
 MAPPING_METHODS = ['Random', 'First', 'Middle', 'Last']
 

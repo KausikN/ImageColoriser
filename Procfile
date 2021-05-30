@@ -1,1 +1,1 @@
-web: sh setup.sh && python -m textblob.download_corpora && streamlit run app.py 
+web: sh setup.sh && streamlit run app.py 
