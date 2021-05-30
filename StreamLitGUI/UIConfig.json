@@ -1,0 +1,10 @@
+{
+    "PROJECT_NAME": "ImageColoriser",
+    "PROJECT_LINK": "https://github.com/KausikN/ImageColoriser",
+
+    "PROJECT_DESC": "Greyscale images to Color images using python and DL",
+
+    "PROJECT_README": "README.md",
+
+    "PROJECT_MODES": ["Clustering based Coloriser", "Threshold based Coloriser"]
+}

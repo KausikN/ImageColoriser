@@ -1,0 +1,4 @@
+streamlit
+requests
+textblob==0.15.3
+matplotlib
