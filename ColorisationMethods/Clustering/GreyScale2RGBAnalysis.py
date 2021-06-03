@@ -68,8 +68,8 @@ def TruncateCombinations(combinations, max_combinations=-1, method='random'):
         if max_combinations > l:
             c = combinations[k]
         elif method == 'random':
-            ind = np.random.randint(0, l, size=max_combinations)
-            c = list(np.array(combinations[k])[ind])
+            ind = np.sort(np.random.randint(0, l, size=max_combinations))
+            c = np.array(combinations[k])[ind]
         elif method == 'last':
             c = combinations[k][-max_combinations:]
         elif method == 'mid':
@@ -105,7 +105,7 @@ def TruncateCombinations(combinations, max_combinations=-1, method='random'):
 # json.dump(matches, open(matchesJsonPath, 'w'))
 # pickle.dump(combinations, open(combinationsJsonPath, 'wb'))
 
-# Load JSON Values
+# # Load JSON Values
 # matches = json.load(open(matchesJsonPath, 'r'))
 # combinations = pickle.load(open('ColorisationMethods/Clustering/Data/CombinationValues_Large.p', 'rb'))
 
@@ -114,8 +114,10 @@ def TruncateCombinations(combinations, max_combinations=-1, method='random'):
 # # plt.bar(list(range(0, 256)), matches_list)
 # # plt.show()
 
-# # Truncate Combinations
-# combinations_t, matches_t = TruncateCombinations(combinations, max_combinations=2500, method='random')
+# Truncate Combinations
+# combinations = pickle.load(open('ColorisationMethods/Clustering/Data/CombinationValues_Large.p', 'rb'))
+
+# combinations_t, matches_t = TruncateCombinations(combinations, max_combinations=40000, method='random')
 
 # # Save
 # json.dump(matches_t, open('ColorisationMethods/Clustering/Data/MatchValues.json', 'w'))
