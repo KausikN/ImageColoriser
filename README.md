@@ -3,7 +3,17 @@
 
  Hosted at [https://infinityjoker-imagecoloriser.herokuapp.com/](https://infinityjoker-imagecoloriser.herokuapp.com/)
 
-Sample Image
+# GUI
+ - Install streamlit using
+   ```
+   pip install streamlit
+   ```
+ - Launch Streamlit GUI in the repo folder by
+   ```
+   streamlit run app.py
+   ```
+
+# Sample Image
 
 ![Greyscale Image](DocImages/Staircase.png)
 
