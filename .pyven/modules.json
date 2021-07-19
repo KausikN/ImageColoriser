@@ -1,0 +1,151 @@
+{
+    "name": "ImageColoriser",
+    "repoLink": "https://github.com/KausikN/ImageColoriser",
+    "localPath": "E:/Github Codes and Projects/Projects/ImageColoriser",
+    "modules": {
+        "app.py": {
+            "name": "app",
+            "type": "local",
+            "link": "https://github.com/KausikN/ImageColoriser/blob/master/app.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/ImageColoriser",
+            "subDir": "",
+            "dependencies": [
+                "cv2.py",
+                "numpy.py",
+                "streamlit.py",
+                "json.py",
+                "ImageColoriser.py"
+            ]
+        },
+        "ImageColoriser.py": {
+            "name": "ImageColoriser",
+            "type": "local",
+            "link": "https://github.com/KausikN/ImageColoriser/blob/master/ImageColoriser.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/ImageColoriser",
+            "subDir": "",
+            "dependencies": [
+                "cv2.py",
+                "ColorisationMethods/Clustering/ImageColoriser_Clustering.py",
+                "ColorisationMethods/Thresholding/ImageColoriser_Thresholding.py"
+            ]
+        },
+        "ColorisationMethods/Algorithmia/ImageColoriser_Algorithmia.py": {
+            "name": "ImageColoriser_Algorithmia",
+            "type": "local",
+            "link": "https://github.com/KausikN/ImageColoriser/blob/master/ColorisationMethods/Algorithmia/ImageColoriser_Algorithmia.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/ImageColoriser",
+            "subDir": "ColorisationMethods/Algorithmia",
+            "dependencies": [
+                "Algorithmia.py",
+                "json.py",
+                "cv2.py"
+            ]
+        },
+        "ColorisationMethods/Clustering/GreyScale2RGBAnalysis.py": {
+            "name": "GreyScale2RGBAnalysis",
+            "type": "local",
+            "link": "https://github.com/KausikN/ImageColoriser/blob/master/ColorisationMethods/Clustering/GreyScale2RGBAnalysis.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/ImageColoriser",
+            "subDir": "ColorisationMethods/Clustering",
+            "dependencies": [
+                "cv2.py",
+                "json.py",
+                "pickle.py",
+                "numpy.py",
+                "tqdm/tqdm.py",
+                "matplotlib.pyplot.py"
+            ]
+        },
+        "ColorisationMethods/Clustering/ImageColoriser_Clustering.py": {
+            "name": "ImageColoriser_Clustering",
+            "type": "local",
+            "link": "https://github.com/KausikN/ImageColoriser/blob/master/ColorisationMethods/Clustering/ImageColoriser_Clustering.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/ImageColoriser",
+            "subDir": "ColorisationMethods/Clustering",
+            "dependencies": [
+                "pickle.py",
+                "json.py",
+                "cv2.py",
+                "numpy.py",
+                "tqdm/tqdm.py",
+                "matplotlib.pyplot.py"
+            ]
+        },
+        "ColorisationMethods/Thresholding/ImageColoriser_Thresholding.py": {
+            "name": "ImageColoriser_Thresholding",
+            "type": "local",
+            "link": "https://github.com/KausikN/ImageColoriser/blob/master/ColorisationMethods/Thresholding/ImageColoriser_Thresholding.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/ImageColoriser",
+            "subDir": "ColorisationMethods/Thresholding",
+            "dependencies": [
+                "cv2.py",
+                "numpy.py",
+                "matplotlib.pyplot.py"
+            ]
+        },
+        "Algorithmia.py": {
+            "name": "Algorithmia",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "streamlit.py": {
+            "name": "streamlit",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "pickle.py": {
+            "name": "pickle",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "matplotlib.pyplot.py": {
+            "name": "matplotlib.pyplot",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "json.py": {
+            "name": "json",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "cv2.py": {
+            "name": "cv2",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "tqdm/tqdm.py": {
+            "name": "tqdm",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/ImageColoriser",
+            "subDir": "tqdm",
+            "dependencies": []
+        },
+        "numpy.py": {
+            "name": "numpy",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        }
+    }
+}
