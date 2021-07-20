@@ -1,3 +1,10 @@
 {
-    "requirements": []
+    "requirements": [
+        "streamlit",
+        "numpy",
+        "matplotlib",
+        "opencv-python-headless",
+        "tqdm"
+    ],
+    "repo_name": "ImageColoriser"
 }

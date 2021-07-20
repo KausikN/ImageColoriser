@@ -83,28 +83,20 @@
                 "matplotlib.pyplot.py"
             ]
         },
-        "Algorithmia.py": {
-            "name": "Algorithmia",
+        "cv2.py": {
+            "name": "cv2",
             "type": "missing",
             "link": "",
             "parentDir": "",
             "subDir": "",
             "dependencies": []
         },
-        "streamlit.py": {
-            "name": "streamlit",
-            "type": "missing",
+        "tqdm/tqdm.py": {
+            "name": "tqdm",
+            "type": "inbuilt",
             "link": "",
-            "parentDir": "",
-            "subDir": "",
-            "dependencies": []
-        },
-        "pickle.py": {
-            "name": "pickle",
-            "type": "missing",
-            "link": "",
-            "parentDir": "",
-            "subDir": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/ImageColoriser",
+            "subDir": "tqdm",
             "dependencies": []
         },
         "matplotlib.pyplot.py": {
@@ -123,24 +115,32 @@
             "subDir": "",
             "dependencies": []
         },
-        "cv2.py": {
-            "name": "cv2",
+        "pickle.py": {
+            "name": "pickle",
             "type": "missing",
             "link": "",
             "parentDir": "",
             "subDir": "",
             "dependencies": []
         },
-        "tqdm/tqdm.py": {
-            "name": "tqdm",
-            "type": "inbuilt",
-            "link": "",
-            "parentDir": "E:/Github Codes and Projects/Projects/ImageColoriser",
-            "subDir": "tqdm",
-            "dependencies": []
-        },
         "numpy.py": {
             "name": "numpy",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "Algorithmia.py": {
+            "name": "Algorithmia",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "streamlit.py": {
+            "name": "streamlit",
             "type": "missing",
             "link": "",
             "parentDir": "",
