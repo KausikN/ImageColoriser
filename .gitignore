@@ -3,4 +3,4 @@ ColorisationMethods/Algorithmia/*.*
 ColorisationMethods/Clustering/Data/CombinationValues_Large.p
 ColorisationMethods/Clustering/Data/MatchValues_Large.json
 
-*__pycache__/*.*
+**/__pycache__/*.*
