@@ -6,6 +6,17 @@
                 "choiceBased": {},
                 "checkBased": {}
             }
+        },
+        "StreamlitGUI": {
+            "name": "StreamlitGUI",
+            "special": {
+                "choiceBased": {
+                    "Cached": 1
+                },
+                "checkBased": {
+                    "StartUICheck": true
+                }
+            }
         }
     }
 }
