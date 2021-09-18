@@ -102,12 +102,12 @@ def UI_ClusteringMethod():
 
 def UI_Coloriser():
     USERINPUT_ColorCount = st.slider("Colors", 2, 10, step=1, value=5)
-    col1, indIcol = st.beta_columns(2)
+    col1, indIcol = st.columns(2)
     USERINPUT_BaseColor = list(Hex_to_RGB(col1.color_picker("Select Base Color", value=RGB_to_Hex(DEFAULT_COLORISER_BASECOLOR))))
     USERINPUT_Thresholds = []
     USERINPUT_ThresholdColors = []
     for i in range(USERINPUT_ColorCount-1):
-        col1, col2 = st.beta_columns(2)
+        col1, col2 = st.columns(2)
         color = list(Hex_to_RGB(col1.color_picker("Color #" + str(i+1), value=RGB_to_Hex(DEFAULT_COLORISER_COLORS[i % len(DEFAULT_COLORISER_COLORS)]))))
         th = col2.slider("Threshold #" + str(i+1), 0.0, 1.0, DEFAULT_COLORISER_THRESHOLDS[i % len(DEFAULT_COLORISER_THRESHOLDS)], 0.05)
         USERINPUT_Thresholds.append(th)
