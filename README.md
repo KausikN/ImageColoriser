@@ -18,19 +18,14 @@
 
 # Sample Image
 
-![Greyscale Image](DocImages/Staircase.png)
+![Greyscale Image](GeneratedVisualisations/Staircase.png)
 
 # Non-AI Methods
- - Clustering based Colorisation
-    - Colorise images using inversed mapping of greyscale value to rgb
-
-    ![Clustering Color Image](DocImages/ColorImage_Clustering.jpeg)
-
  - Thresholding based Colorisation
     - Colorise images based on the greyscale value
-    - Assign particular color if value lies within threshold
+    - Assign particular color based on the value of a pixel between an interval
 
-    ![Clustering Color Image](DocImages/ColorImage_Thresholding.jpeg)
+    ![Clustering Color Image](GeneratedVisualisations/ColorImage_Thresholding.jpeg)
 
 # AI Methods
  - In Dev, stay tuned :-)

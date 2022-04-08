@@ -14,7 +14,7 @@
                 "numpy.py",
                 "streamlit.py",
                 "json.py",
-                "ImageColoriser.py"
+                "*.py"
             ]
         },
         "ImageColoriser.py": {
@@ -24,9 +24,7 @@
             "parentDir": "E:/Github Codes and Projects/Projects/ImageColoriser",
             "subDir": "",
             "dependencies": [
-                "cv2.py",
-                "ColorisationMethods/Clustering/ImageColoriser_Clustering.py",
-                "ColorisationMethods/Thresholding/ImageColoriser_Thresholding.py"
+                "*.py"
             ]
         },
         "ColorisationMethods/Algorithmia/ImageColoriser_Algorithmia.py": {
@@ -41,36 +39,6 @@
                 "cv2.py"
             ]
         },
-        "ColorisationMethods/Clustering/GreyScale2RGBAnalysis.py": {
-            "name": "GreyScale2RGBAnalysis",
-            "type": "local",
-            "link": "https://github.com/KausikN/ImageColoriser/blob/master/ColorisationMethods/Clustering/GreyScale2RGBAnalysis.py",
-            "parentDir": "E:/Github Codes and Projects/Projects/ImageColoriser",
-            "subDir": "ColorisationMethods/Clustering",
-            "dependencies": [
-                "cv2.py",
-                "json.py",
-                "pickle.py",
-                "numpy.py",
-                "tqdm/tqdm.py",
-                "matplotlib.pyplot.py"
-            ]
-        },
-        "ColorisationMethods/Clustering/ImageColoriser_Clustering.py": {
-            "name": "ImageColoriser_Clustering",
-            "type": "local",
-            "link": "https://github.com/KausikN/ImageColoriser/blob/master/ColorisationMethods/Clustering/ImageColoriser_Clustering.py",
-            "parentDir": "E:/Github Codes and Projects/Projects/ImageColoriser",
-            "subDir": "ColorisationMethods/Clustering",
-            "dependencies": [
-                "pickle.py",
-                "json.py",
-                "cv2.py",
-                "numpy.py",
-                "tqdm/tqdm.py",
-                "matplotlib.pyplot.py"
-            ]
-        },
         "ColorisationMethods/Thresholding/ImageColoriser_Thresholding.py": {
             "name": "ImageColoriser_Thresholding",
             "type": "local",
@@ -78,34 +46,9 @@
             "parentDir": "E:/Github Codes and Projects/Projects/ImageColoriser",
             "subDir": "ColorisationMethods/Thresholding",
             "dependencies": [
-                "cv2.py",
                 "numpy.py",
-                "matplotlib.pyplot.py"
+                "tqdm.py"
             ]
-        },
-        "cv2.py": {
-            "name": "cv2",
-            "type": "missing",
-            "link": "",
-            "parentDir": "",
-            "subDir": "",
-            "dependencies": []
-        },
-        "tqdm/tqdm.py": {
-            "name": "tqdm",
-            "type": "inbuilt",
-            "link": "",
-            "parentDir": "E:/Github Codes and Projects/Projects/ImageColoriser",
-            "subDir": "tqdm",
-            "dependencies": []
-        },
-        "matplotlib.pyplot.py": {
-            "name": "matplotlib.pyplot",
-            "type": "missing",
-            "link": "",
-            "parentDir": "",
-            "subDir": "",
-            "dependencies": []
         },
         "json.py": {
             "name": "json",
@@ -115,8 +58,24 @@
             "subDir": "",
             "dependencies": []
         },
-        "pickle.py": {
-            "name": "pickle",
+        "streamlit.py": {
+            "name": "streamlit",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "cv2.py": {
+            "name": "cv2",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "*.py": {
+            "name": "*",
             "type": "missing",
             "link": "",
             "parentDir": "",
@@ -131,16 +90,16 @@
             "subDir": "",
             "dependencies": []
         },
-        "Algorithmia.py": {
-            "name": "Algorithmia",
+        "tqdm.py": {
+            "name": "tqdm",
             "type": "missing",
             "link": "",
             "parentDir": "",
             "subDir": "",
             "dependencies": []
         },
-        "streamlit.py": {
-            "name": "streamlit",
+        "Algorithmia.py": {
+            "name": "Algorithmia",
             "type": "missing",
             "link": "",
             "parentDir": "",
