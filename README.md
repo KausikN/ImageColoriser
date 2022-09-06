@@ -1,5 +1,5 @@
 # ImageColoriser
- Greyscale images to Color images using python and DL
+ Image Colorisation Algorithms and Models
 
 # GUI
 [![https://infinityjoker-apps.herokuapp.com/](https://pyheroku-badge.herokuapp.com/?app=infinityjoker-apps&style=plastic)](https://infinityjoker-apps.herokuapp.com/)

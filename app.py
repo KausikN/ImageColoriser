@@ -80,6 +80,7 @@ def GenerateRadialIndicatorImage():
         y_vals = np.linspace(-1.0, 1.0, COLORISERINDICATORIMAGE_SIZE[1])[None, :]
         RADIALINDICATORIMAGE = np.sqrt(x_vals ** 2 + y_vals ** 2)
         RADIALINDICATORIMAGE = 1 - ((RADIALINDICATORIMAGE - np.min(RADIALINDICATORIMAGE)) / (np.max(RADIALINDICATORIMAGE) - np.min(RADIALINDICATORIMAGE)))
+    
     return RADIALINDICATORIMAGE
 
 @st.cache
